@@ -19,6 +19,12 @@ jobs:
       - run: npm install
 
       - run: npm run build --if-present
+      - name: Prepare web assets
+       - run: |
+        mkdir -p www
+        cp index.html www/
+        cp manifest.json www/ || true
+        cp service-worker.js www/ || true
 
       - name: Create Android Project
         run: |
