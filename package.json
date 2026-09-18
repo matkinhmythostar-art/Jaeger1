@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "echo Build 
+    "build": "echo Build ",
     {
   "dependencies": {
     "@capacitor/android": "3.9.0",
