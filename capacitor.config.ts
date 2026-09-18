@@ -1,1 +1,9 @@
-export default {appId:'vn.matkinhtho.jaeger',appName:'MẮT KÍNH MỸ THO',webDir:'.'};
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.matkinhmytho.jaeger',
+  appName: 'JaegerVisionPro',
+  webDir: '.',
+};
+
+export default config;
