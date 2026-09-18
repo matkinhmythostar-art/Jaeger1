@@ -1,9 +1,10 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.matkinhmytho.jaeger',
-  appName: 'JaegerVisionPro',
-  webDir: 'www'
+  appId: 'com.jaegervisionpro.app',
+  appName: 'Jaeger Vision Pro',
+  webDir: 'www',
+  bundledWebRuntime: false
 };
 
 export default config;
