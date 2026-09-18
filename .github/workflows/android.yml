@@ -20,7 +20,7 @@ jobs:
 
       - run: npm run build --if-present
       - name: Prepare web assets
-       - run: |
+       run: |
         mkdir -p www
         cp index.html www/
         cp manifest.json www/ || true
